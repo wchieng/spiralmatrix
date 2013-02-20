@@ -81,7 +81,7 @@ def printMatrix():
     print ""
     for row in matrix:
         for col in row:
-            print "["+ str(col) +"]",
+            print "[%d]" % (col),
         print ""
 
 
